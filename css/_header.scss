@@ -1,0 +1,42 @@
+.header__section {
+    display: flex;
+    justify-content: space-between;
+    margin: 117px 21px 0px 140px;
+}
+.header__title {
+    h1{
+        width: 509px;
+        height: 73px;
+        font-family: Montserrat;
+        font-size: 60px;
+        font-weight: 700;
+        line-height: 73.14px;
+        text-align: left;
+        color: rgba(25, 66, 223, 1);
+    }
+    p{
+        width: 475px;
+        height: 46px;
+        font-family: Montserrat;
+        font-size: 19px;
+        font-weight: 500;
+        line-height: 23.16px;
+        text-align: left;
+        color: rgba(35, 31, 32, 1);
+        margin-top: 60px;
+    }
+    .header__btn {
+        width: 215px;
+        height: 55px;
+        border: none;
+        border-radius: 50px;
+        color: rgba(255, 255, 255, 1);
+        background-color: rgba(255, 90, 58, 1);
+        margin-top: 79px;
+    }
+}
+.header__picture {
+    width: 780px;
+    height: 780px;
+    margin-top: -81px;
+}

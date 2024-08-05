@@ -1,0 +1,12 @@
+@import "./header";
+@import "./body";
+@import "./nav";
+body {
+    margin: 0 auto;
+}
+.contaner {
+    width: 100%;
+    max-width: 1440px;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
