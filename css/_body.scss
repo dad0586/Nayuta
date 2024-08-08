@@ -70,3 +70,84 @@
         }
     }
 }
+
+/* Believe section */
+.believe {
+    display: flex;
+    justify-content: space-between;
+}
+.believe-main-paragraph {
+    width: 696px;
+    height: 73px;
+    margin-left: 140px;
+    margin-right: 604px;
+    font-family: Montserrat;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 73.14px;
+    text-align: left;
+    color: rgba(25, 66, 223, 1);
+}
+.believe__main__title {
+    width: 660px;
+    height: 91.86px;
+    margin-left: 140px;
+    margin-top: 58.85px; 
+    font-family: Montserrat;
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 23.16px;
+    text-align: left;
+    color: rgba(35, 31, 32, 1);
+
+    .believe__main__title-link {
+        font-family: Montserrat;
+        font-size: 19px;
+        font-weight: 500;
+        line-height: 23.16px;
+        text-align: left;
+        color: rgba(25, 66, 223, 1);
+    }
+    
+}
+.believe__main__title-litlle {
+    width: 202px;
+    height: 22.97px;
+    margin-left: 140px;
+    margin-top: 50.28px; 
+    font-family: Montserrat;
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 23.16px;
+    text-align: left;
+    color: rgba(35, 31, 32, 1);
+}
+.believe__title-little {
+    width: 397px;
+    height: 45.93px;
+    margin-left: 140px;
+    margin-top: 24.57px; 
+    font-family: Montserrat;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 23.16px;
+    text-align: left;
+    color: rgba(35, 31, 32, 1);
+}
+.believe__title-btn {
+    width: 152px;
+    height: 32.94px;
+    margin-left: 148px;
+    margin-top: 46.49px; 
+    border-radius: 50px;
+    background: rgba(10, 190, 59, 1);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17.07px;
+    text-align: center;    
+    color: rgba(255, 255, 255, 1);
+    border: none;
+}
+
+

@@ -112,6 +112,88 @@
   line-height: 17.07px;
 }
 
+/* Believe section */
+.believe {
+  display: flex;
+  justify-content: space-between;
+}
+
+.believe-main-paragraph {
+  width: 696px;
+  height: 73px;
+  margin-left: 140px;
+  margin-right: 604px;
+  font-family: Montserrat;
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 73.14px;
+  text-align: left;
+  color: rgb(25, 66, 223);
+}
+
+.believe__main__title {
+  width: 660px;
+  height: 91.86px;
+  margin-left: 140px;
+  margin-top: 58.85px;
+  font-family: Montserrat;
+  font-size: 19px;
+  font-weight: 500;
+  line-height: 23.16px;
+  text-align: left;
+  color: rgb(35, 31, 32);
+}
+.believe__main__title .believe__main__title-link {
+  font-family: Montserrat;
+  font-size: 19px;
+  font-weight: 500;
+  line-height: 23.16px;
+  text-align: left;
+  color: rgb(25, 66, 223);
+}
+
+.believe__main__title-litlle {
+  width: 202px;
+  height: 22.97px;
+  margin-left: 140px;
+  margin-top: 50.28px;
+  font-family: Montserrat;
+  font-size: 19px;
+  font-weight: 500;
+  line-height: 23.16px;
+  text-align: left;
+  color: rgb(35, 31, 32);
+}
+
+.believe__title-little {
+  width: 397px;
+  height: 45.93px;
+  margin-left: 140px;
+  margin-top: 24.57px;
+  font-family: Montserrat;
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 23.16px;
+  text-align: left;
+  color: rgb(35, 31, 32);
+}
+
+.believe__title-btn {
+  width: 152px;
+  height: 32.94px;
+  margin-left: 148px;
+  margin-top: 46.49px;
+  border-radius: 50px;
+  background: rgb(10, 190, 59);
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 17.07px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  border: none;
+}
+
 .nav-section {
   display: flex;
   justify-content: space-between;
@@ -177,11 +259,101 @@
   text-align: left;
 }
 
+.footer {
+  background: linear-gradient(98.3deg, #5C7AE8 0%, #75D6A1 100%);
+  width: 1440px;
+  height: 550px;
+}
+
+.main__footer-logo {
+  width: 197px;
+  height: 55px;
+  margin-top: 38px; /* logoni 38px pastga tushirish kerak footerdan*/
+  margin-left: 140px;
+}
+
+.main__footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__main-title {
+  font-family: Montserrat;
+  font-size: 19px;
+  font-weight: 500;
+  line-height: 23.16px;
+  color: rgb(255, 255, 255);
+}
+
+.footer-title {
+  font-family: Montserrat;
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 23.16px;
+  color: rgb(230, 230, 230);
+}
+
+.main__footer-company {
+  margin-left: 140px;
+  margin-top: 34px;
+  width: 215px;
+  height: 165px;
+}
+
+.main__footer-contact {
+  width: 204px;
+  height: 160px;
+  margin-left: 70px;
+  margin-top: 34px;
+  align-items: center;
+}
+.main__footer-contact .footer__main-title a {
+  text-decoration: none;
+  font-family: Montserrat;
+  font-size: 19px;
+  font-weight: 500;
+  line-height: 23.16px;
+  text-align: left;
+  color: rgb(255, 255, 255);
+}
+.main__footer-contact .footer__mail a {
+  font-family: Montserrat;
+  font-size: 19px;
+  font-weight: 500;
+  line-height: 23.16px;
+  color: rgb(255, 255, 255);
+}
+
+.main__footer-work {
+  width: 181px;
+  height: 137px;
+  margin-left: 70px;
+  margin-top: 34px;
+}
+
+.main__footer-address {
+  width: 345px;
+  height: 140px;
+  margin-left: 70px;
+  margin-top: 34px;
+  margin-right: 63px;
+}
+
+.footer__info {
+  margin-top: 165px;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 19px;
+  font-weight: 500;
+  line-height: 23.16px;
+  color: rgb(255, 255, 255);
+}
+
 body {
   margin: 0 auto;
 }
 
-.contaner {
+.container {
   width: 100%;
   max-width: 1440px;
   box-sizing: border-box;
