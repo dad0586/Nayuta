@@ -87,19 +87,7 @@
   color: rgb(74, 74, 74);
 }
 .product__category .product__section-btn {
-  border: none;
-  color: white;
-  background-color: white;
-}
-.product__category:hover {
-  text-align: center;
-  width: 257px;
-  height: 410px;
-  margin-left: 43px;
-  box-shadow: 0px 0px 20px 0px rgba(51, 96, 231, 0.2);
-  border-radius: 15px;
-}
-.product__category:hover .product__section-btn {
+  opacity: 0;
   width: 144px;
   height: 32px;
   margin-top: 26px;
@@ -111,6 +99,19 @@
   font-size: 14px;
   font-weight: 600;
   line-height: 17.07px;
+}
+.product__category:hover {
+  text-align: center;
+  width: 257px;
+  height: 410px;
+  margin-left: 43px;
+  box-shadow: 0px 0px 20px 0px rgba(51, 96, 231, 0.2);
+  border-radius: 15px;
+}
+.product__category:hover .product__section-btn {
+  opacity: inherit;
+  border: none;
+  transition: 0.7s;
 }
 
 /* Table section */

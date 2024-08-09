@@ -44,9 +44,19 @@
     }
 
     .product__section-btn {
-        border: none;
-        color: white;
-        background-color: white;
+        opacity: 0;
+        width: 144px;
+        height: 32px;
+        margin-top: 26px;
+        margin-left: 8px;
+        border-radius: 50px;
+        background-color: rgba(255, 90, 58, 1);
+        color: rgba(255, 255, 255, 1);
+        font-family: Montserrat;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 17.07px;
+
     }
     &:hover {
         text-align: center;
@@ -56,18 +66,9 @@
         box-shadow: 0px 0px 20px 0px rgba(51, 96, 231, 0.2);
         border-radius: 15px;
         .product__section-btn {
-            width: 144px;
-            height: 32px;
-            margin-top: 26px;
-            margin-left: 8px;
-            border-radius: 50px;
-            background-color: rgba(255, 90, 58, 1);
-            color: rgba(255, 255, 255, 1);
-            font-family: Montserrat;
-            font-size: 14px;
-            font-weight: 600;
-            line-height: 17.07px;
-
+            opacity: inherit;
+            border: none;
+            transition: 0.7s;
         }
     }
 }
