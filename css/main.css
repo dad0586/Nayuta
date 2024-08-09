@@ -43,6 +43,7 @@
 
 .product__title {
   margin-left: 140px;
+  margin-top: -30px;
   width: 526px;
   height: 73px;
   font-family: Montserrat;
@@ -304,6 +305,14 @@
   border: none;
 }
 
+.believe__img {
+  position: relative;
+  left: -650px;
+  top: 110px;
+  width: 456px;
+  height: 456px;
+}
+
 .nav-section {
   display: flex;
   justify-content: space-between;
@@ -379,6 +388,7 @@
   width: 197px;
   height: 55px;
   margin-left: 140px;
+  margin-top: 50px;
 }
 
 .footer__img {

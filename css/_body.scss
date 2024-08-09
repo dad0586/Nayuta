@@ -1,5 +1,6 @@
 .product__title {
     margin-left: 140px;
+    margin-top: -30px;
     width: 526px;
     height: 73px;
     font-family: Montserrat;
@@ -259,6 +260,13 @@
     text-align: center;    
     color: rgba(255, 255, 255, 1);
     border: none;
+}
+.believe__img {
+    position: relative;
+    left: -650px;
+    top: 110px;
+    width: 456px;
+    height: 456px;
 }
 
 
