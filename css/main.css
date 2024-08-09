@@ -41,6 +41,24 @@
   margin-top: -81px;
 }
 
+@media only screen and (max-width: 600px) {
+  .header__section {
+    margin: 0 auto;
+  }
+  .header__title h1 {
+    font-size: 2rem;
+  }
+  .header__title p {
+    font-size: 1rem;
+  }
+  .header__title .header__btn {
+    width: 80px;
+    height: 30px;
+  }
+  .header__picture {
+    display: none;
+  }
+}
 .product__title {
   margin-left: 140px;
   margin-top: -30px;
@@ -379,6 +397,29 @@
   text-align: left;
 }
 
+@media only screen and (max-width: 600px) {
+  .nav__menu {
+    margin: 0 auto;
+    display: none;
+  }
+  .nav__menu-flags {
+    display: none;
+    margin: 0 auto;
+  }
+  hr {
+    display: none;
+  }
+  .nav__menu-title {
+    text-decoration: none;
+    font-family: Montserrat;
+    font-size: 8rem;
+    font-weight: 200;
+    line-height: 3.16px;
+    text-align: left;
+    color: rgb(255, 255, 255);
+    margin: auto;
+  }
+}
 .footer {
   background: linear-gradient(98.3deg, #5C7AE8 0%, #75D6A1 100%);
   width: 1440px;
