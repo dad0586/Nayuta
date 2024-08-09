@@ -6,8 +6,10 @@
 .main__footer-logo {
     width: 197px;
     height: 55px;
-    margin-top: 38px; /* logoni 38px pastga tushirish kerak footerdan*/
     margin-left: 140px;
+}
+.footer__img {
+    margin-top: 38px;
 }
 .main__footer {
     display: flex;

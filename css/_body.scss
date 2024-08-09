@@ -71,6 +71,117 @@
     }
 }
 
+/* Table section */
+.main__table {
+    width: 760px;
+    height: 146px;
+    margin-left: 140px;
+    margin-top: 118px;
+    font-family: Montserrat;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 73.14px;
+    color: rgba(25, 66, 223, 1);
+}
+.body__table {
+    display: flex;
+}
+.body__table-title {
+    p{
+        width: 472px;
+        height: 130px;
+        margin-top: 173px;
+        margin-left: 140px;
+        font-family: Montserrat;
+        font-size: 19px;
+        font-weight: 500;
+        line-height: 26.2px;
+        color: rgba(35, 31, 32, 1);
+    }
+    .body__table-btn {
+        width: 152px;
+        height: 38px;
+        border-radius: 50px;
+        margin-left: 140px;
+        margin-top: 60px; 
+        font-family: Montserrat;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 17.07px;
+        text-align: center;
+        color: rgba(255, 255, 255, 1);
+        background-color: rgba(255, 90, 58, 1);
+        border: none;
+    }
+}
+.body__table-table {
+    background-color: rgba(92, 122, 231, 1);
+    border-collapse: collapse;
+    border-radius: 15px;
+    width: 668px;
+    height: 432px;
+    padding: 30px;
+    margin-left: 20px;
+
+    .table__image {
+        width: 125px;
+        height: 35px;
+    }
+    th, td {
+        border: 1px solid white;
+    }
+    .main__table-title {
+        padding-left: 13.5px; 
+        font-family: Montserrat;
+        font-size: 19px;
+        font-weight: 700;
+        line-height: 23.16px;
+        color: rgba(255, 255, 255, 1);
+    }
+    .table-title {
+        padding-left: 13.5px; 
+        font-family: Montserrat;
+        font-size: 17px;
+        font-weight: 500;
+        line-height: 20.72px;
+        color: rgba(255, 255, 255, 1);
+    }
+    .border1 {
+        border-top: none;
+    }
+    .border2 {
+        border-right: none;
+    }
+    .border3 {
+        border-bottom: none;
+    }
+    .border4 {
+        border-left: none;
+    }
+}
+.table__img {
+    .img1{
+        position: relative;
+        top: -515px;
+        left: -66px;
+    }
+    .img2{
+        position: relative;
+        top: -114px;
+        left: 416px;
+    }
+    .img3{
+        position: relative;
+        top: -550px;
+        left: 270px;
+    }
+    .img4{
+        position: relative;
+        top: -150px;
+        left: -530px;
+    }
+}
+
 /* Believe section */
 .believe {
     display: flex;

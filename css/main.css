@@ -112,6 +112,116 @@
   line-height: 17.07px;
 }
 
+/* Table section */
+.main__table {
+  width: 760px;
+  height: 146px;
+  margin-left: 140px;
+  margin-top: 118px;
+  font-family: Montserrat;
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 73.14px;
+  color: rgb(25, 66, 223);
+}
+
+.body__table {
+  display: flex;
+}
+
+.body__table-title p {
+  width: 472px;
+  height: 130px;
+  margin-top: 173px;
+  margin-left: 140px;
+  font-family: Montserrat;
+  font-size: 19px;
+  font-weight: 500;
+  line-height: 26.2px;
+  color: rgb(35, 31, 32);
+}
+.body__table-title .body__table-btn {
+  width: 152px;
+  height: 38px;
+  border-radius: 50px;
+  margin-left: 140px;
+  margin-top: 60px;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 17.07px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  background-color: rgb(255, 90, 58);
+  border: none;
+}
+
+.body__table-table {
+  background-color: rgb(92, 122, 231);
+  border-collapse: collapse;
+  border-radius: 15px;
+  width: 668px;
+  height: 432px;
+  padding: 30px;
+  margin-left: 20px;
+}
+.body__table-table .table__image {
+  width: 125px;
+  height: 35px;
+}
+.body__table-table th, .body__table-table td {
+  border: 1px solid white;
+}
+.body__table-table .main__table-title {
+  padding-left: 13.5px;
+  font-family: Montserrat;
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 23.16px;
+  color: rgb(255, 255, 255);
+}
+.body__table-table .table-title {
+  padding-left: 13.5px;
+  font-family: Montserrat;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 20.72px;
+  color: rgb(255, 255, 255);
+}
+.body__table-table .border1 {
+  border-top: none;
+}
+.body__table-table .border2 {
+  border-right: none;
+}
+.body__table-table .border3 {
+  border-bottom: none;
+}
+.body__table-table .border4 {
+  border-left: none;
+}
+
+.table__img .img1 {
+  position: relative;
+  top: -515px;
+  left: -66px;
+}
+.table__img .img2 {
+  position: relative;
+  top: -114px;
+  left: 416px;
+}
+.table__img .img3 {
+  position: relative;
+  top: -550px;
+  left: 270px;
+}
+.table__img .img4 {
+  position: relative;
+  top: -150px;
+  left: -530px;
+}
+
 /* Believe section */
 .believe {
   display: flex;
@@ -268,8 +378,11 @@
 .main__footer-logo {
   width: 197px;
   height: 55px;
-  margin-top: 38px; /* logoni 38px pastga tushirish kerak footerdan*/
   margin-left: 140px;
+}
+
+.footer__img {
+  margin-top: 38px;
 }
 
 .main__footer {
