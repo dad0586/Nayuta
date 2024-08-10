@@ -273,23 +273,23 @@
 @media only screen and (max-width: 600px){
     .container{
         width: 100%;
-        max-width: 414px;
+        max-width: 600px;
         margin: 0 auto;
     }
     .product__title{
         margin: 20px;
         font-size: 2rem;
-        width: 414px;
+        width: 560px;
     }
     .product__section{
         margin: 0px;
         flex-wrap: wrap;
-        width: 414px;
+        width: 600px;
     }
     .product__category{
-        width: 180px;
+        width: 220px;
         height: 250px;
-        margin: 20px 12px;
+        margin: 30px;
 
         .product__section-mtitle{
             font-size: 1rem;
@@ -307,9 +307,9 @@
             margin-top: 15px;
         }
         &:hover {
-            width: 180px;
+            width: 220px;
             height: 300px;
-            margin: auto 12px;
+            margin: auto 30px;
         }
         img {
             width: 150px;
@@ -319,14 +319,14 @@
 
     /* Table section */
     .main__table {
-        width: 374px;
-        margin: 0px 20px;
+        width: 560px;
+        margin: 30px 20px 0px;
         font-size: 2rem;
         line-height: 40px;
     }
     .body__table-title {
         p{
-            width: 350px;
+            width: 560px;
             margin: 0px 20px;
             font-size: 1rem;
         }
@@ -346,12 +346,12 @@
 
     /* Believe section */
     .believe-main-paragraph {
-        width: 354px;
+        width: 540px;
         margin: 30px;
         font-size: 2rem;
     }
     .believe__main__title {
-        width: 374px;
+        width: 560px;
         margin: 20px;
         font-size: 1rem;       
     }
@@ -359,12 +359,12 @@
         font-size: 1rem; 
     }
     .believe__main__title-litlle {
-        width: 374px;
-        margin: 100px 20px 0px 20px;
+        width: 560px;
+        margin: 10px 20px 0px 20px;
         font-size: 1rem; 
     }
     .believe__title-little {
-        width: 374px;
+        width: 560px;
         margin: 20px;
         font-size: 1rem;
     }
