@@ -270,4 +270,112 @@
     height: 456px;
 }
 
+@media only screen and (max-width: 600px){
+    .container{
+        width: 100%;
+        max-width: 414px;
+        margin: 0 auto;
+    }
+    .product__title{
+        margin: 20px;
+        font-size: 2rem;
+        width: 414px;
+    }
+    .product__section{
+        margin: 0px;
+        flex-wrap: wrap;
+        width: 414px;
+    }
+    .product__category{
+        width: 180px;
+        height: 250px;
+        margin: 20px 12px;
+
+        .product__section-mtitle{
+            font-size: 1rem;
+        }
+    
+        .product__section-title {
+            font-size: 0.8rem;
+            width: 150px;
+            margin: 0px auto ;
+            
+        }
+        .product__section-btn {
+            width: 120px;
+            height: 30px;
+            margin-top: 15px;
+        }
+        &:hover {
+            width: 180px;
+            height: 300px;
+            margin: auto 12px;
+        }
+        img {
+            width: 150px;
+            height: 100px;
+        }
+    }
+
+    /* Table section */
+    .main__table {
+        width: 374px;
+        margin: 0px 20px;
+        font-size: 2rem;
+        line-height: 40px;
+    }
+    .body__table-title {
+        p{
+            width: 350px;
+            margin: 0px 20px;
+            font-size: 1rem;
+        }
+        .body__table-btn {
+            width: 130px;
+            height: 30px;
+            margin: 30px;
+            font-size: 10px;
+        }
+    }
+    .body__table-table{
+        display: none;
+    }
+    .table__img{
+        display: none;
+    }
+
+    /* Believe section */
+    .believe-main-paragraph {
+        width: 354px;
+        margin: 30px;
+        font-size: 2rem;
+    }
+    .believe__main__title {
+        width: 374px;
+        margin: 20px;
+        font-size: 1rem;       
+    }
+    .believe__main__title-link {
+        font-size: 1rem; 
+    }
+    .believe__main__title-litlle {
+        width: 374px;
+        margin: 100px 20px 0px 20px;
+        font-size: 1rem; 
+    }
+    .believe__title-little {
+        width: 374px;
+        margin: 20px;
+        font-size: 1rem;
+    }
+    .believe__img {
+        display: none;
+    }
+    .believe__title-btn{
+        width: 130px;
+        height: 30px;
+        margin: 30px;
+        font-size: 10px;
+    }
+}
 

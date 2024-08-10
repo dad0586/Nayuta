@@ -41,19 +41,27 @@
     margin-top: -81px;
 }
 @media only screen and (max-width: 600px){
+    .container {
+        width: 100%;
+        max-width: 414px;
+        margin: 0px auto;
+    }
     .header__section {
         margin: 0 auto;
     }
     .header__title {
         h1{
             font-size: 2rem;
+            width: 414px;
         }
         p {
             font-size: 1rem;
+            width: 414px;
         }
         .header__btn {
             width: 80px;
             height: 30px;
+            margin: 30px;
         }
     }
     .header__picture{

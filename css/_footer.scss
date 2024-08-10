@@ -87,4 +87,70 @@
     line-height: 23.16px;
     color: rgba(255, 255, 255, 1);
 }
+@media only screen and ( width: 600px) {
+    .container {
+        width: 100%;
+        max-width: 600px;
+        margin: 0px auto;
+    }
+    .footer {
+        width: 414px;
+    }
+    .main__footer-logo {
+        margin: 30px;
+    }
+    .footer__img{
+        margin-left: 100px;
+        width: 120px;
+        height: 35px;
+    }
+    .main__footer{
+        flex-wrap: wrap;
+        width: 414px;
+    }
+    .footer__main-title {
+        font-size: 1rem;
+    }
+    .footer-title {
+        font-size: 1rem;
+    }
+    .main__footer-company {
+        margin: 10px;
+        width: 180px;
+    }
+    .main__footer-contact {
+        margin: 10px;
+        width: 180px;
+    }
+    .footer__main-title{
+        a{
+            font-size: 1rem;
+        }
+    }
+    .footer__mail{
+        a{
+            font-size: 1rem;
+        }
+    }
+    .main__footer-work {
+        width: 180px;
+        margin: 10px;
+    }
+    .main__footer-address {
+        width: 180px;
+        margin: 10px;
+    }
+    .footer-work {
+        margin-top: 50px;
+    }
+    .footer-address{
+        margin-top: 50px;
+    }
+    .footer__info {
+        width: 414px;
+        margin-top: 70px;
+        font-size: 1rem;
+
+    }
+}
     
